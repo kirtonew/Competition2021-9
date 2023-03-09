@@ -1,0 +1,33 @@
+div{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: greenyellow;
+}
+#only{
+	background-color: red;
+}
+#only1{
+	background-color: blue;
+}
+.demo{
+	background-color: green;
+}
+.demo1{
+	color: #f40;
+}
+span{
+	color: #f40;
+	font-weight: bold;
+}
+/* *{
+	background-color: green;
+	全局变色
+} */
+/* 属性选择器 */
+[id="only"]{
+	background-color: red;
+}
+div{
+	background-color: green !important;
+}

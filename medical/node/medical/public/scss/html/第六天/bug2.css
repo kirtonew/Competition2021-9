@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box1{
+	background-color: red;
+	margin-right: 100px;
+}
+.box2{
+	background-color: green;
+	margin-left: 100px;
+}
+.demo1{
+	background-color: red;
+	margin-bottom: 200px;
+}
+.demo2{
+	background-color: green;
+	margin-top: 100px;
+}

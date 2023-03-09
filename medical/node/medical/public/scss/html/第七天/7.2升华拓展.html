@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="7.2.css">
+</head>
+<body>
+	<h2>1.自适应边框</h2>
+	<div class="wrapper">
+		<div class="content"></div>
+	</div>
+	<h2>2.凡是带有inline属性的符合文本类特点，有文字分隔符</h2>
+	<img src="hayashi.jpg">
+	<img src="hayashi.jpg">
+	<img src="hayashi.jpg">
+	<img src="hayashi.jpg">
+	<h2>解决方法-放置img元素到一起</h2>
+	<img src="hayashi.jpg"><img src="hayashi.jpg"><img src="hayashi.jpg"><img src="hayashi.jpg">
+	<h2>3.使用position和float:left/right，元素会在内部设置为display:inline-block;span可被设置宽高</h2>
+	<h2>4.单行文本底对齐</h2>
+	<img src="hayashi.jpg">呵呵
+	<br>
+	<span></span>呵呵
+	<br>
+	一旦行距块元素、文本元素包含元素，span内写字，则外部文字和内部文字对齐<br>
+	<span>123</span>呵呵
+	<h2>5.对齐可调</h2>
+	<span class="test">对齐可调</span>对齐可调
+</body>
+</html>

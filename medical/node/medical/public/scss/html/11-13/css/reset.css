@@ -1,0 +1,168 @@
+
+body,p,h1,h1,h3,h4{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	border: none;
+	vertical-align: middle;
+}
+img.turnl{
+	width: 20px;
+}
+img.turnr{
+	width: 20px;
+}
+
+a{
+	color: #3c3c3c;
+	text-decoration: none;
+}
+i{
+	font-size: normal;
+}
+input{
+	margin: 0;
+	padding: 0;
+}
+button{
+	outline: none;
+}
+table{
+	border-collapse: collapse;
+	/* 边框模式 ,合并模式*/
+}
+th,td{
+	padding: 0;
+}
+body{
+	font:  12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	/* font-family: '\5b8b\4f53  SimSuns  宋体';
+	font-family: "微软雅黑/Microsoft YaHei"; */
+	/* 讲解：line-height: 1.5  \5b万国码，跨平台  sans*/
+}
+.clearfix::after{
+	content: '';
+	display: inline-block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.layer{
+	width: 1190px;
+	margin: 0 auto;
+}
+.c4{
+	color: #f40;
+}
+.c5{
+	color: #f50;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mr10{
+	margin-right: 10px;
+}
+/* 图标区域 */
+.firstRight .icon{
+	width: 100%;
+	height: 231px;
+	background-color: #fff;
+	table-layout: fixed;
+	/* 定义列宽的算法，fixed计算方式为根据表格宽度自动计算，每列的宽度为均分整个表格的宽度 */
+}
+.firstRight .icon td{
+	border: 1px solid #f4f4f4;
+	text-align: center;
+}
+.firstRight .icon td span{
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+	background: url(../images/ico.png) no-repeat;
+}
+.firstRight .icon td i{
+	line-height: 34px;
+	color: #333;
+}
+.firstRight .icon .item1 span{
+	background-position: 0 0;
+}
+.firstRight .icon .item2 span{
+	background-position: 0 0;
+}
+.firstRight .icon .item3 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item4 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item5 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item6 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item7 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item8 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item9 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item10 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item11 span{
+		background-position: 0 0;
+}
+.firstRight .icon .item12 span{
+		background-position: 0 0;
+}
+
+/* APP */
+.firstRight .app{
+	height: 111px;
+	background-color: #fff;
+}
+.firstRight .app .title{
+	height: 30px;
+	line-height: 30px;
+}
+.firstRight .app h3{
+	font-size: 14px;
+	padding-left: 14px;
+}
+.firstRight .app a{
+	margin-right: 10px;
+}
+.firstRight .app a:hover{
+	color: #f40;
+}
+.firstRight .app .appIcon{
+	text-align: center;
+	font-size: 0;
+}
+.firstRight .app .appIcon li{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	margin: 0 10px 8px 10px;
+}
+.firstRight .app .appIcon li img{
+	width:32px ;
+	height: 32px;
+}

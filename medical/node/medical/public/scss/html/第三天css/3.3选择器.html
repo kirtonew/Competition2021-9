@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>选择器</title>
+	<link rel="stylesheet" type="text/css" href="lesson3.css">
+</head>
+<body>
+	<h1>1.选择器</h1>
+	<div id="only">123</div>
+	<div id="only1">234</div> 
+	<h4>2.class</h4>
+	<div class="demo demo1">123</div>  
+	选择多个demo
+	<div class="demo">234</div>
+	<h4>3.标签选择器</h4>
+	<div>123</div>
+	span不管在div里外都全选<br>
+	<span>123</span>
+	<div>
+		<span>234</span>
+	</div>
+
+	<h4>4.通配符选择器*-只要是标签都被选择到
+		全局标签会让页面变色</h4>
+		<span>123</span>
+		<div>234</div>
+		<strong>111</strong>
+	<h5>5.优先级比较<br>!important>行间样式>id>class|属性选择器>标签选择器>通配符<br>css权重256进制决定前后顺序</h5>
+	<div class="only" id="demo">123</div>
+	
+	<h6>6.！important</h6>
+	<div style="background-color:red;">123</div>
+</body>
+</html>

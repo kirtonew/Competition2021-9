@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>并列选择器</title>
+	<link rel="stylesheet" type="text/css" href="lesson4.css">
+</head>
+<body>
+	<h1>并列选择器-标签应该放在前面</h1>
+	<div>1</div>
+	<div class="demo">2</div>
+	<p class="demo">3</p>
+	<h2>权重加和-相同时后面覆盖前面</h2>
+	<div class="classDiv" id="idDiv">
+		<p class="classP" id="idP">1</p>
+	</div>
+	<h2>分组选择器(合理耦合)</h2>
+	<em>1</em>
+	<strong>2</strong>
+	<span>3</span>
+	<br>
+	<div class="demo1">3</div>
+	<div class="demo2">4</div>
+	<h2>css代码</h2>
+	<!-- -font-size设置的是高度 -->
+	<div>举个例子</div>
+	<strong><em>举个例子</em></strong>
+	<br>strong自带font-weight:50px;
+	<div class="square"></div>
+	<div class="triangle"></div>
+</body>
+</html>

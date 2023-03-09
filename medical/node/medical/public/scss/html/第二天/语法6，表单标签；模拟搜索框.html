@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset="utf-8">
+	<title>语法学习-form标签</title>
+	<style type="text/css">
+		input{
+			border: 1px solid #999;
+		}
+	</style>
+</head>
+<body>
+	<form method="get" action="">
+
+
+		<p>
+			username:<input type="text" name="username"style="color:#999" value="请输入用户名"onfocus="if(this.value=='请输入用户名'){this.value='';this.style.color='#424242'}else {this.value=value}"onblur="if(this.value==''){this.style.color='#999';this.value='请输入用户名';}">
+		</p>
+
+		<p>
+			password:<input type="password" name="password" value="请输入密码"onfocus="this.value' '">
+		
+		</p>
+		
+		<input type="submit" value="login">
+		<!-- p标签-成段展示 -->
+		<!-- 2G网络对数据无加密，极其不安全
+			1.房间信号不好
+			2.被主动干扰
+			3.定时发送信号干扰
+			4.数据突然变成2G不要使用支付宝等任何泄露信息的数据
+			5.银行卡被盗刷
+			6.银行卡每半年记录一次消费信息，放料者半年一周期转移信息给收料者，过半年消费记录难追查
+			7.进入国家信息网络半年后做身份证复印件和银行卡复制-盗刷 
+			8.大客户的特权
+-->
+			喜欢的人（单选）
+			<p>1.supercell<input type="radio" name="star" value="s"></p>
+			<p>2.egoist<input type="radio"name="star" value="e"></p>
+			<p>3.chelly<input type="radio"name="star" value="c"></p>
+			<input type="submit">
+		
+		
+
+
+	</form>
+
+</body>
+</html>

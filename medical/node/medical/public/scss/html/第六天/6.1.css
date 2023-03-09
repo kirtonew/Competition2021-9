@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.right{
+	position: absolute;
+	right: 0;
+	width: 100px;
+	height: 100px;
+	background-color: #fcc;
+	opacity: 0.5;
+}
+/* 自适应元素,浏览器多宽就多宽 */
+.left	{  
+	margin-right: 100px;
+	height: 100px;
+	background-color: #123;
+}
+/* 布局：1.定位2.让出位置
+用margin-right */
+/* left 和right先后写有区别 */

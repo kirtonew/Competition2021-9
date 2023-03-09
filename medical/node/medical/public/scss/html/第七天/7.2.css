@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	height: 30px;
+	background-color: #123;
+}
+.content{
+	width: 800px;
+	height: 30px;
+	background-color: #0f0;
+	margin: 0 auto;
+}
+.img{
+	width: 30px;
+	height: 60px;
+	
+}
+span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+.test{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	font-size: 50px;
+	vertical-align: -10px;
+}

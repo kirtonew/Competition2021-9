@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.wrapper{
+	margin-left: 100px;
+	margin-top: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	/* border-top: 1px solid red; */
+	/* overflow: hidden; */
+	/* display: inline-block; */
+	/* position: absolute; */
+}
+.content{
+	margin-left: 50px;
+	margin-top: 70px;
+	/* margin-top为什么不动呢？小于父类没用，当大于父类反而带父类动
+	父子嵌套元素垂直方向margin取最大值 */
+	width: 50px;
+	height: 50px;
+	background-color: green;
+}

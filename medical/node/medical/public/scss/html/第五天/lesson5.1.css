@@ -1,0 +1,29 @@
+div{
+	font-size: 25px;
+	border: 1px solid black;
+	text-align:left; /* center/right/left; 对齐方式*/
+	height: 200px;    /* 容器 */
+	line-height:1.2em; /* 20px */
+	/* 单行文字所占高度；当单行文本所占高度=容器高度-》》单行文本垂直居中 */
+	text-indent:2em ;/* 首行缩进1 em=1 font-size = 16px;可调 */
+}
+
+
+span{
+	color: rgb(0,0,238);
+	text-decoration-line: underline;
+	cursor:pointer ;/*copy help/resize pointer */
+}
+a{
+	text-decoration-line: none;
+}
+a:hover{  /* 鼠标选中效果 */
+	text-decoration-line: underline;
+	background-color:#f40 ;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: ;  /* 斜体 */
+	border-radius: 10px;
+
+}

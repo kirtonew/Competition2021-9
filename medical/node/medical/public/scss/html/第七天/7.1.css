@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 处理单行文本三件套 */
+p{
+	width: 300px;
+	height: 40px;
+	line-height: 20px;
+	border:1px solid black ;
+	overflow: hidden;
+/* 	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; */
+
+}
+/* 处理多行文本--overflow:hidden */
+/* img */
+div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-image: url(hayashi.jpg);
+	background-size: 100px 100px;
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	/* 一个大小不够容器用多个 */
+	/*  一般都是No repeat*/
+
+}
+.ini{
+
+	display: inline-block;
+	text-decoration: none;
+	color: #424242;
+	width: 190px;
+	height: 90px;
+	border: 1px solid black;
+
+	background-image: url(https://gw.alicdn.com/tfs/TB176rg4VP7gK0jSZFjXXc5aXXa-286-118.png) ;
+	background-size: 190px 90px;
+}
+/* 1 */
+.plana{
+	display: inline-block;
+	text-decoration: none;
+	color: #424242;
+	width: 190px;
+	height: 90px;
+	border: 1px solid black;
+
+	background-image: url(https://gw.alicdn.com/tfs/TB176rg4VP7gK0jSZFjXXc5aXXa-286-118.png) ;
+	background-size: 190px 90px;
+	text-indent: 190px;
+	white-space: nowrap;
+	overflow:hidden ;
+}
+/* 2 */
+.planb{
+	display: inline-block;
+	text-decoration: none;
+	color: #424242;
+	width: 190px;
+	height: 0px;
+	padding-top: 90px;
+	border: 1px solid black;
+	background-image: url(https://gw.alicdn.com/tfs/TB176rg4VP7gK0jSZFjXXc5aXXa-286-118.png) ;
+	background-size: 190px 90px;
+	overflow: hidden;
+}

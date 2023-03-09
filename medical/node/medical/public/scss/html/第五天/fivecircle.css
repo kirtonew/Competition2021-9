@@ -1,0 +1,47 @@
+
+.red,
+.blu,
+.yel,
+.bla,
+.gre{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 100px	;
+	height: 100px;
+	border-radius: 50%;
+}
+.red{
+	border: 10px solid red;
+	margin-left: 80px;
+	margin-top:-40px;
+	z-index: 0;
+}
+
+.blu{
+	border: 10px solid blue;
+	margin-left: -180px;
+	margin-top: -40px;
+	z-index: 0;
+
+}
+.yel{
+	border: 10px solid yellow;
+	margin-left: -115px;
+	margin-top: 20px;
+	z-index: 3;
+}
+.gre
+{	
+	border: 10px solid green;
+	margin-left: 15px;
+	margin-top: 20px;
+	z-index: 1;
+}
+.bla{	
+	border: 10px solid black;	
+	margin-left: -50px;
+	margin-top: -40px;
+	z-index: 4;
+
+}

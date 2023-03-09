@@ -1,0 +1,69 @@
+div.demo{
+	background-color:red ;
+
+}
+#idDiv p{
+	background-color: red;
+}
+div .classP#idP{
+	background-color: green;
+}
+em,
+strong,
+span{
+	background-color: red;
+}
+.demo1{
+	background-color: red;
+}
+.demo2{
+	background-color: blue;
+}
+.demo1,
+.demo2{
+	width: 100px;
+	height: 100px;
+}
+div{
+
+	font-size: 50px;
+	font-weight: normal;/* lighter normal bold bolder 100 200 300-> 900 600=bold*/
+	font-style: normal;     /* 斜体 */
+	font-family:cursive ;   /*  通用字体 */
+	color: rgb(255, 122, 133);             /* 1.不标准-纯英文单词2.#ffffff颜色代码3.颜色函数rgb(,,0-255) */
+							/* 2.  #   r     g      b   
+								     00-ff 00-ff 00-ff   */    
+	border: 10px solid black;	
+	border-width: 5px;
+	border-style:  dotted	;/* dashed; */
+
+	border-color:blue ;
+
+}
+strong{	
+	font-size: 50px;
+}
+div.square{
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	border: 100px solid black;
+	border-left-color: red/* red */;
+	border-top-color: blue/* blue */;
+	border-right-color:green/* green */ ;
+	border-bottom-color: yellow;
+
+
+}
+div.triangle{
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	border: 100px solid black;
+	border-left-color: transparent/* red */;
+	border-top-color: transparent/* blue */;
+	border-right-color:transparent/* green */ ;
+	border-bottom-color: yellow;
+
+
+}

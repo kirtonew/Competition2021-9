@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper	{
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+}
+/* .content{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: #fff;
+	float:right	;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	}
+	/* left从左边站队，right从右边站队 
+	float使元素站队*/
+ .content{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: #fff;
+	float:right;
+	/* 站队边界是父级边界 */
+	}
+
+.box{
+		float: left;
+		width: 100px;
+		height	:100px;
+		background-color: black;
+		opacity: 0.5;
+}
+.demo{
+		display: inline-block;
+		/*  */
+		width: 150px;
+		height	:150px;
+		background-color: green;
+}
+
+
+/* 3. */
+.wrapper2{
+ 	/* 去掉高宽变成自适应容器 */
+	border: 1px solid black;
+
+
+}
+ .content2{
+ 	float: left;
+ 	/* 发现父级不能包住 ，问题在于浮动流*/
+ 	color: #fff;
+ 	background-color: black;
+	width: 100px;
+	height: 100px;
+}
+p{
+	border-top: 10px solid green;
+	clear: both;
+	/* 清除周围浮动流-一劳永逸的方法 */
+}
+/* !important
+行间样式
+id
+class|属性|伪类
+标签|伪元素
+通配符 */
+span::before{
+	/* 选出span中最前面的伪元素、最后面伪元素 */
+	content: "chengge";
+	/* 此为伪元素的内容 */
+
+}
+span::after{
+	/* 逻辑最后的伪元素 */
+	position: absolute;
+	top: 1060px;
+	content: "确实如此.伪元素天生存在，可以选中并修改。伪元素content只能用css修改";
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	/* 想设置宽高必须改成块级元素 */
+}
+.wrapper3::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+/* 需要clear生效必须是块级元素 */
+.wrapper3{
+	display: inline-block;
+	float: left;
+	border: 2px solid blue;
+}
+ .wrapper3.content3{
+ 	float: left;
+ 	width: 100px;
+	height: 100px;
+ 	color: #fff;
+ 	background-color: black;
+
+}
+/* 事实证明包裹wrapper或者内容content加后缀改名的方法并不好用 */
+/*  */
+span{
+
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	/* float: left; */
+	/* display: inline-block; */
+	position: absolute;
+	/* position将内部转化为inline元素 */
+}
+
+/* 7 */
+.img1{
+	float: left;
+	margin-right: 10px;
+	width: 100px;
+	
+}
+.img2{
+	float: right;
+	width: 100px;
+	margin-left: 10px;
+}

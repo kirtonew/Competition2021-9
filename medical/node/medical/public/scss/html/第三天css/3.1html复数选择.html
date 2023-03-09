@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>复选3.1</title>
+</head>
+<body>
+	<div>html-结构 css-样式 js-行为</div>
+	<br>
+	<br>
+	
+		<div>
+			<form method="get" action="">
+				单选
+				<h1>Province</h1>
+				<select name="Province">
+					 <option value="beijing">beijing</option>
+					 <option value="beijing" >shanghai</option>
+					 <option value="beijing">guangzhou</option>
+				</select>
+				<input type="submit">
+				<br>无论提交什么都会是value值</br>
+			</form>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div>
+			<form method="get" action="">
+				复选
+				<h1>Choose your favourite fruit</h1>
+				<p>1.apple<input type="checkbox" name="fruit" value="apple"checked=""></p>
+				<p>2.orange<input type="checkbox"name="fruit" value="orange"></p>
+				<p>3.banana<input type="checkbox"name="fruit" value="banana"></p>
+				<!-- l?fruit=apple&fruit=orange&fruit=banana -->
+				<input type="submit">
+			</form>
+		</div>
+		<div>
+			<form>
+				<h1>Choose your sex!</h1>
+				<h2>可优化-默认勾选/无需提交/聚焦即选</h2>
+				male:<input type="radio" name="sex" value="male" checked="">
+				female:<input type="radio" name="sex" value="female">
+				<input type="submit">
+			</form>
+		</div>
+</body>
+</html>

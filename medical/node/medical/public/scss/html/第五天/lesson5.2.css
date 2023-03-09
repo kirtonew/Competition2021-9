@@ -1,0 +1,17 @@
+span{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	display: block;
+
+}
+div{
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	display: inline;
+}
+img{
+	width: 600px;
+
+}

@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'E:\\node\\node.exe',
+1 verbose cli   'E:\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'serve'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.15.1
+4 verbose stack Error: missing script: serve
+4 verbose stack     at run (E:\node\node_modules\npm\lib\run-script.js:155:19)
+4 verbose stack     at E:\node\node_modules\npm\lib\run-script.js:63:5
+4 verbose stack     at E:\node\node_modules\npm\node_modules\read-package-json\read-json.js:116:5
+4 verbose stack     at E:\node\node_modules\npm\node_modules\read-package-json\read-json.js:436:5
+4 verbose stack     at checkBinReferences_ (E:\node\node_modules\npm\node_modules\read-package-json\read-json.js:391:45)
+4 verbose stack     at final (E:\node\node_modules\npm\node_modules\read-package-json\read-json.js:434:3)
+4 verbose stack     at then (E:\node\node_modules\npm\node_modules\read-package-json\read-json.js:161:5)
+4 verbose stack     at ReadFileContext.<anonymous> (E:\node\node_modules\npm\node_modules\read-package-json\read-json.js:350:20)
+4 verbose stack     at ReadFileContext.callback (E:\node\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:123:16)
+4 verbose stack     at FSReqCallback.readFileAfterOpen [as oncomplete] (fs.js:273:13)
+5 verbose cwd E:\node\medical
+6 verbose Windows_NT 10.0.18363
+7 verbose argv "E:\\node\\node.exe" "E:\\node\\node_modules\\npm\\bin\\npm-cli.js" "run" "serve"
+8 verbose node v14.15.1
+9 verbose npm  v6.14.8
+10 error missing script: serve
+11 verbose exit [ 1, true ]

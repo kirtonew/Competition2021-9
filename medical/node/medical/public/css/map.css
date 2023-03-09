@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url(../images/bg2.jpg) no-repeat top center; */
+    line-height: 1.15;
+}
+
+.mapmainbox {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    /* padding: 0.125rem 0.125rem 0; */
+}
+
+.column {
+    width: 100%;
+    height: 100%;
+}
+
+.chinamap {
+    width: 100%;
+    /*top: -70px;*/
+}
+
+.chinamap .chart {
+    height: 100%;
+    width: 100%;
+    height: 5rem;
+}
+
+.worldmap {
+    width: 100%;
+    /*top: -70px;*/
+}
+
+.worldmap .chart {
+    height: 100%;
+    width: 100%;
+    height: 5rem;
+}
+
+.rxamap {
+    width: 100%;
+    /*top: -70px;*/
+}
+
+.rxamap .chart {
+    height: 100%;
+    width: 100%;
+    height: 5rem;
+}
+
+.xzbmap {
+    width: 100%;
+}
+
+.xzbmap .chart {
+    height: 100%;
+    width: 100%;
+    height: 5rem;
+    background-image: url("../img/banner/xxg可视化.png");
+    background-repeat: no-repeat;
+}
+
+.panel {
+    width: 100%;
+}
+
+.panel .chart {
+    height: 100%;
+    width: 100%;
+    height: 5rem;
+    background-image: url("../img/banner/eye可视化.png");
+    background-repeat: no-repeat;
+}
+
+.bar {
+    width: 100%;
+}
+
+.bar .chart {
+    height: 100%;
+    width: 100%;
+    height: 5rem;
+}
+
+
+/*
+.mainbox {
+    position: absolute;
+    min-width: 800px;
+    max-width: 800px;
+}
+
+.mainbox .column {
+    flex: 5;
+}
+
+.mainbox .panel {
+    position: relative;
+    height: 3.875rem;
+    margin-bottom: 0.1875rem;
+}
+
+.mainbox .panel .chart {
+    height: 3.75rem;
+    width: 800px;
+}
+*/

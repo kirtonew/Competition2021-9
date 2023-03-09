@@ -1,0 +1,62 @@
+/*  div{
+	border: 10px solid black;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	padding: 100px;   内边距 
+ 	margin: 100px; 
+} 
+*/
+.wrapper{
+	border: 10px solid green;
+	/* 也有四个方向 */
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	padding: 100px;
+	/* 一个padding的100px相当于4个，
+	4个值：上右下左
+	3个值，上 左右 下
+	2个值   上下 左右 */
+}
+.content{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+/* div{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border: 10px solid black;
+	padding: 10px 20px 30px;
+	margin: 10px 20px;
+	/* 有色区域160px宽高 
+	一个计算问题
+
+} 
+
+/* 远视图 */
+.wra1{
+	height: 10px;
+	width: 10px;
+	background-color: #fff;
+}
+.wra2{
+	width: 10px;
+	width: 10px;
+	padding: 10px;
+	background-color: #0f0;
+}
+.wra3{
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	padding: 10px;
+}
+.wra4{
+	width: 50px;
+	height: 50px;
+	background-color: #0f0;
+	padding: 10px;
+}

@@ -1,0 +1,99 @@
+div.test1{
+	/* 最近一侧距离浏览器边框 */
+	position: absolute;
+	left: 600px;
+	top: 20px;
+	width: 100px;
+	height: 100px;
+	background-color: red ;
+}
+.demo{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	opacity: 0.5;
+	/* 设置透明、可见重叠 */
+}
+.box0{
+	width: 150px;
+	height: 150px;
+	background-color: green;
+}
+
+/*  */
+.demo1{
+	position: relative;
+	left: 100px;
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+}
+.demo2{
+	position: relative;
+	left: 100px;
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	opacity: 0.5;
+}
+/* 重要 */
+.wrap{
+	position: relative;
+	margin-left: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+
+}
+.cont{
+	position: relative;
+	margin-left:100px ;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+.box{
+	position: absolute;
+	left: 50px;
+	width: 50px;
+	height: 50px;
+	margin-left: -50px;
+	background-color: yellow;
+}
+.fix{       /* 居左 */
+	position: fixed;
+	left: 0;
+	top: 300px;
+	width: :18px;
+	height: 200px;
+	background-color: red(0);
+	color: #0f5;
+
+}
+.fix2{       /* 居中 */
+	position: fixed;
+	left: 600px;
+	top: 300px;
+	width: 50px;
+	height: 150px;
+	background-color: green;
+	opacity: 0.5;
+
+}
+.fix3{
+	/* 页面动态相对文档居正中absolute/相对界面居正中fixed */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	opacity: 0.5;
+	margin-left: -50px;
+	margin-right: -50px;
+}

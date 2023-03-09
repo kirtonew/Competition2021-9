@@ -1,0 +1,12 @@
+/* div strong em{
+	background-color:red;
+} */
+.wrapper .box em{
+	background-color:red ;
+}
+div em{
+	background-color: greenyellow;
+}
+div2 >em{
+	background-color: goldenrod;
+}

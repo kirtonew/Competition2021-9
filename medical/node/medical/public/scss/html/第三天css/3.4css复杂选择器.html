@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="lesson4.css">
+</head>
+<body>
+	
+	<h1>1.css权重</h1>
+	!important	&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  infinitly<br>
+	行间样式			&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1000<br>
+	id        	   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 	100<br>
+	class|属性|伪类	&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;   10<br>
+	标签选择器|伪元素 &nbsp; &nbsp; 1<br>
+	通配符			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0<br>
+	<h2>2.派生选择器/父子选择器</h2>
+	<h6>中间的每个环节都可以用其他选择器代替</h6>
+	<div class="wrapper">
+		<strong class="box">
+			<em>234</em>
+		</strong>
+	</div>
+	<em>123</em>
+	<h6> 两个em都在div下都可被选到
+		<div>
+			<em>1</em>
+			<strong>
+				<em>2</em>
+			</strong>
+		</div>
+	</h6>
+	<h6>直接子元素选择器-间接子元素选不到</h6>
+	<h6> 
+		<div2>
+			<em>1</em>
+			<strong>
+				<em>3</em>
+			</strong>
+		</div2>
+	</h6>
+	<h3>浏览器遍历自右向左</h3>
+
+</body>
+</html>

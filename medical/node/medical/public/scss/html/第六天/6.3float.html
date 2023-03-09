@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="6.3.css">
+</head>
+<body>
+	<h2>1.float</h2>
+	<div class="wrapper">
+		<div class="content">1</div>
+		<div class="content">2</div>
+		<div class="content">3</div>
+		<div class="content">4</div>
+		<div class="content">5</div>
+		<div class="content">6</div>
+		<div class="content">7</div>
+		<div class="content">8</div>
+		<div class="content">9</div>
+	</div>
+	<h2>2.单独探究浮动元素--出现了重叠现象
+		文本能看到浮动元素，浮动元素看不到文本。只有块级元素看不到浮动元素。浮动元素产生了浮动流，所有产生了浮动流的元素，块级元素看不到他，产生了bfc的元素和文本类属性（inline）的元素以及文本都能看到浮动元素
+</h2>
+	<div class="box"></div>123
+	<div class="demo"></div>
+	<h2>3.clear来消除周围浮动流，用p标签清除左右浮动，让wrapper能包住父级元素</h2>
+	<div class="wrapper2">
+		<div class="content2">1</div>
+		<div class="content2">2</div>
+		<div class="content2">3</div>
+		<div class="content2">1</div>
+		<div class="content2">2</div>
+		<div class="content2">3</div><div class="content2">1</div>
+		<div class="content2">2</div>
+		<div class="content2">3</div><div class="content2">1</div>
+		<div class="content2">2</div>
+		<div class="content2">3</div>
+		<p></p>
+	</div>
+	<!-- 1. -->
+	<h2>4.实际编程p标签不可破坏结构。复习权重-伪元素</h2>
+	<span>很帅</span>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2>5.如何解决p标签破坏结构？伪元素</h2>
+	<div class="wrapper3">
+		<div class="content3">1</div>
+		<div class="content3">2</div>
+		<div class="content3">3</div>
+
+	</div>
+	<h2>6.其他方法。父级元素看不到浮动流所以包不住</h2>
+	<!-- position：absolute；float：left、right打内部把元素转化成inlineblock -->
+	<h2>7.浮动，position将内部转化为inline元素</h2>
+	<span>123</span>
+	<h3></h3>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h3>可实现文字环绕图片,并非从图片底部一行开始</h3>
+	
+
+</body>
+</html>
